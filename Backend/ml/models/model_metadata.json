@@ -1,0 +1,33 @@
+{
+    "model_type": "xgboost.XGBClassifier",
+    "model_version": "1.0.0",
+    "training_date": "2026-08-30T20:14:25.361278",
+    "train_size": 7000,
+    "validation_size": 1500,
+    "test_size": 1500,
+    "feature_names": [
+        "amount",
+        "payment_method",
+        "customer_segment",
+        "transaction_hour",
+        "days_since_last_payment",
+        "previous_failures",
+        "retry_count",
+        "checkout_duration",
+        "device_type",
+        "location_type",
+        "payment_gateway",
+        "failure_reason",
+        "subscription_status",
+        "invoice_age_days",
+        "amount_due",
+        "payment_status"
+    ],
+    "test_metrics": {
+        "accuracy": 0.926,
+        "precision": 0.8336,
+        "recall": 0.9867424242424242,
+        "f1_score": 0.9037294015611448,
+        "roc_auc": 0.9698002400548696
+    }
+}
