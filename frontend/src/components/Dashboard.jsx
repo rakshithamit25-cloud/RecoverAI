@@ -7,8 +7,7 @@ import {
     AlertTriangle, CheckCircle, RefreshCcw, Play, ShieldAlert,
     Activity, XCircle, Clock, Zap, FileText
 } from 'lucide-react';
-
-const API_BASE = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
+const API_BASE = import.meta.env.VITE_API_URL || 'https://recoverai-backend-h8rf.onrender.com';
 const MOCK_LOW_RISK = { transaction_id: "demo_low", amount: 150.0, payment_method: "credit_card", customer_segment: "loyal", transaction_hour: 10, days_since_last_payment: 15, previous_failures: 0, retry_count: 0, checkout_duration: 30, device_type: "desktop", location_type: "domestic", payment_gateway: "razorpay", failure_reason: "None", subscription_status: "active", invoice_age_days: 0, amount_due: 150.0, payment_status: "failed" };
 const MOCK_MED_RISK = {
     transaction_id: "demo_med",
